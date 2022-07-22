@@ -1,0 +1,128 @@
+
+body{
+    margin: 0px; 
+    padding: 0px;
+    font-family:"Raleway", sans-serif;
+    background-color: whitesmoke;
+}
+/* nav bar */
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    padding-right:20px;
+    margin: 15px;
+    font-size: 28px;
+    cursor: pointer;
+}
+/* Body */
+
+.thumbs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thumbs img{
+    width: 450px;
+    height:300px;
+    margin:3px;
+    cursor: pointer;
+}
+
+/* Abouts */
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about img{
+    width: 450px;
+    height: 350px;
+    margin:30px;
+}
+.about p{
+    text-align: center;
+    line-height:30px;
+}
+.text{
+    color:rgb(223, 102, 122);
+}
+label{
+    font-weight: bold;
+    margin:10px;
+}
+input{
+    width:50%;
+    border:1px rgb(202, 194, 194) solid;
+    height:30px;
+    background-color: white;
+    
+}
+button{
+    width: 50.5%;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+p > a {
+    color: black;
+}
+/* div{ */
+    
+/* } */
+/* .middle-container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.last-container{
+    background-color:yellow;
+    height: 200px;
+    width: 200px;
+} */
+/* .joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.joinBtn:hover:active {
+    box-shadow: 2px 2px 5px #fc894d;
+    transition:1s;
+} */
+/* .clicked{
+    background-color: #f34079;
+    color: white;
+    width: 10em;
+    height: 5ex;
+    border: none;
+    border-radius: 5px;
+
+} */
+/* div {
+    margin:10em;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  } */
+
+
